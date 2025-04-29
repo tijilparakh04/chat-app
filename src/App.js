@@ -3,6 +3,7 @@ import { Amplify } from 'aws-amplify';
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import { generateClient } from 'aws-amplify/api';
 import { getCurrentUser, fetchUserAttributes } from 'aws-amplify/auth';
+import '@aws-amplify/ui-react/styles.css';
 import awsconfig from './aws-exports';
 import './App.css';
 
